@@ -1,0 +1,175 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/crypto_banner02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  width: 100%;
+  background-image: url(./images/top_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-inside {
+  /* width: 100%; */
+  margin: auto;
+  max-width: 1024px;
+  gap: 2em;
+  padding: 1em;
+}
+
+.header-logo {
+  width: 35%;
+  height: auto;
+  max-width: 77px;
+  font-size: 1em;
+}
+
+.header-text {
+  margin-right: auto;
+  border-left: 2px solid #9d9d9d;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.header-dropdown {
+  position: relative;
+}
+
+.header-dropdown-btn {
+  background-color: rgba(62, 60, 65, 1);
+  border: 0.5px solid #4a4a4a;
+  border-radius: 10px;
+  color: white;
+  min-width: 121px;
+  padding: 7px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  gap: 0.5em;
+}
+
+.header-dropdown-box {
+  /* display: none; */
+  background-color: rgba(62, 60, 65, 1);
+  min-width: 121px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  border: 0.5px solid #4a4a4a;
+  border-radius: 0px 0px 10px 10px;
+  transition: 2s;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-content {
+  padding: 7px 5px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  gap: 0.5em;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.payment-box {
+  background-color: rgb(0, 0, 0, 50%);
+  width: 60rem;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.payment-title {
+  width: 100%;
+  gap: 0.7em;
+}
+
+.payment-title-icon {
+  width: 25px;
+  height: 29px;
+  background-image: url("./images/mini_icon01.png");
+}
+
+.payment-title-text {
+  font-size: 1.5em;
+  color: #ffff;
+}
+
+.payment-form {
+  background-color: #fff;
+  padding: 1em;
+  color: #626262;
+}
+
+.btn-box {
+  /* background-color: red; */
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5em;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #c6c6c6;
+  padding: 0.4em;
+  font-size: 0.9em;
+  cursor: pointer;
+  opacity: 0.75;
+  gap: 0.3em;
+}
+
+.btn:hover {
+  border: 1px solid #1091ff;
+  opacity: 1;
+}
+
+.btn-buy-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 2px;
+}
+
+.btn-usdt-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.btn-buy {
+  grid-area: 1 / 1 / 2 / 3;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.footer-image {
+  width: 35%;
+  margin: auto;
+}
+
+/*==== Utils ====*/
+.flex-box-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-box-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
